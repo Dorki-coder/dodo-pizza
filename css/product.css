@@ -1,0 +1,101 @@
+.product-price {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+}
+
+.product-block {
+  position: relative;
+  height: 370px;
+}
+
+.snacks .product-block {
+  height: 425px;
+}
+
+.desserts .product-block {
+  height: 406px;
+}
+
+.drinks .product-block {
+  height: 487px;
+}
+
+.product-block .product-description {
+  margin-right: 15px;
+}
+
+.drinks .product-block {
+  height: 387px;
+}
+
+.product-name {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 201px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+@media screen and (max-width: 450px) {
+  .product-block {
+    position: inherit;
+    height: auto;
+    width: 288px;
+    display: flex;
+    padding: 16px 0 17px 0;
+    border-bottom: 1px solid #f3f3f7;
+  }
+
+  .product-block .select,
+  .product-block .create {
+    display: none;
+  }
+
+  .product-block img {
+    margin: 0;
+    width: 115px;
+    height: 115px;
+  }
+
+  .product-price {
+    margin-top: 8px;
+    position: relative;
+    width: 96px;
+    height: 32px;
+    background: #fff0e6;
+    color: #d15700;
+    border-radius: 1000px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .product-price:hover {
+    background-color: #ffd0b2;
+    cursor: pointer;
+  }
+
+  .product-description,
+  .product-name {
+    width: 156px;
+    height: auto;
+  }
+
+  .product-block,
+  .snacks .product-block,
+  .desserts .product-block,
+  .drinks .product-block,
+  .drinks .product-block {
+    height: auto;
+  }
+  section {
+    margin-top: 30px;
+  }
+  .flex-wrap {
+    gap: 16px;
+  }
+}

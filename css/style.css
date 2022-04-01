@@ -1,0 +1,177 @@
+body {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  background: rgb(255, 255, 255);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body img {
+  vertical-align: bottom;
+}
+
+.container {
+  max-width: 1060px;
+  margin: 25px auto 0 auto;
+}
+
+nav .flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: flex-start;
+  margin-top: 41px;
+}
+
+nav button {
+  width: 104px;
+  height: 40px;
+  background: #f96900;
+  border-radius: 1000px;
+  font-size: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+
+nav button:hover {
+  background: #ed5d08;
+  cursor: pointer;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.product-name {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.flex-wrap {
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.product-block {
+  width: 250px;
+  height: 370px;
+  margin-bottom: 40px;
+}
+
+.product-block img {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 220px;
+  height: 220px;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #73798c;
+  height: 57px;
+}
+
+.create {
+  width: 140px;
+  height: 40px;
+  margin-left: 42px;
+  background: #f96900;
+  border-radius: 1000px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.create:hover {
+  background: #ed5d08;
+  border-radius: 1000px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.select {
+  width: 140px;
+  height: 40px;
+  margin-left: 42px;
+  background: #fff0e6;
+  color: #d15700;
+  border-radius: 1000px;
+  border: none;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+
+.select:hover {
+  background: #ffd0b2;
+  border-radius: 1000px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.product-block img:hover {
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+section {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 450px) {
+  .menu,
+  .shopping-cart,
+  .achievements-description,
+  .contacts-phone,
+  .conctacts-phone__decription {
+    display: none;
+  }
+  footer,
+  footer-contacts {
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+  .flex-wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .container {
+    padding-left: 16px;
+  }
+
+  .slider {
+    height: 93px;
+  }
+}

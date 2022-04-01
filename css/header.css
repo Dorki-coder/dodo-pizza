@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  width: 1060px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts-phone {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.contacts-description {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #999999;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+.menu a:hover {
+  color: #f96900;
+  transition: 0.3s;
+}
+
+.slider {
+  background-image: url("../img/slider/slider.png");
+  margin-top: 15px;
+  width: 1060px;
+  height: 300px;
+}
+
+.title {
+  color: transparent;
+  background: url("../img/logo/logo.svg") no-repeat center / cover;
+  width: 250px;
+  height: 48px;
+  user-select: none;
+}
